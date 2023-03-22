@@ -1,0 +1,169 @@
+.operation-choose-page {
+  height: 1000px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.operation-choose-page button {
+  height: 70px;
+  width: 80%;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.operation-choose-page .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.operation-choose-page .information #balance,
+.operation-choose-page .information #deposit,
+.operation-choose-page .information #withdraw,
+.operation-choose-page .information #payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  border: #c1eb29 solid 3px;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#55a755), to(#695ed1));
+  background-image: linear-gradient(to bottom right, #55a755, #695ed1);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 40px;
+}
+
+.operation-choose-page .information #deposit,
+.operation-choose-page .information #withdraw {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#695ed1), to(#55a755));
+  background-image: linear-gradient(to bottom right, #695ed1, #55a755);
+}
+
+.operation-choose-page .information h5 {
+  font-weight: 800;
+  color: white;
+  text-decoration: underline;
+}
+
+.operation-choose-page .withdraw-input,
+.operation-choose-page .deposit-input,
+.operation-choose-page .payment-input {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  border: gray solid 1px;
+  border-radius: 30px;
+}
+
+.operation-choose-page .withdraw-input input,
+.operation-choose-page .deposit-input input,
+.operation-choose-page .payment-input input {
+  width: 50%;
+  height: 60px;
+  border: none;
+}
+
+.operation-choose-page .withdraw-input button,
+.operation-choose-page .deposit-input button,
+.operation-choose-page .payment-input button {
+  width: 20%;
+  height: 40px;
+  font-size: 20px;
+  background-color: #695ed1;
+}
+
+.operation-choose-page .input-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.imgcontainer img.avatar {
+  width: 15%;
+  border-radius: 40%;
+}
+
+.login-container {
+  padding: 16px;
+}
+
+.login-container input[type=text],
+.login-container input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login-container button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container button:hover {
+  opacity: 0.8;
+}
+
+.login-container .finger-scan {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  width: 15%;
+  height: 150px;
+}
+
+.login-container .finger-scan .finger-gif {
+  width: 90%;
+}
+
+.login-container span.psw {
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .finger-scan {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

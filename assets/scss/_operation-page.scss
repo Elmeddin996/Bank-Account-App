@@ -1,0 +1,80 @@
+.operation-choose-page {
+    height: 1000px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+
+    button {
+        height: 70px;
+        width: 80%;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .information {
+        display: flex;
+
+        #balance,
+        #deposit,
+        #withdraw,
+        #payment {
+            display: flex;
+            width: 150px;
+            height: 100px;
+            border: #c1eb29 solid 3px;
+            border-radius: 20px;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(to bottom right, #55a755, #695ed1);
+            flex-direction: column;
+            margin: 0 40px;
+
+        }
+
+        #deposit,
+        #withdraw {
+            background-image: linear-gradient(to bottom right, #695ed1, #55a755);
+        }
+
+
+        h5 {
+            font-weight: 800;
+            color: white;
+            text-decoration: underline;
+        }
+
+
+    }
+
+    .withdraw-input,
+    .deposit-input,
+    .payment-input {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border: gray solid 1px;
+        border-radius: 30px;
+
+        input {
+            width: 50%;
+            height: 60px;
+            border: none;
+        }
+
+        button {
+            width: 20%;
+            height: 40px;
+            font-size: 20px;
+            background-color: #695ed1;
+        }
+    }
+
+    .input-toggle {
+        display: flex;
+    }
+
+}
